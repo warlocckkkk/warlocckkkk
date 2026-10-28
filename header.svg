@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+  <title id="title">warlocckkkk — учусь, создаю, улучшаю</title>
+  <desc id="desc">Тёмный баннер с фиолетовой орбитой и символами кода.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10121c"/><stop offset="1" stop-color="#1c1434"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#b8a0ff"/><stop offset="1" stop-color="#67e8d5"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#8758e8" stop-opacity=".24"/><stop offset="1" stop-color="#8758e8" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#c4b5fd" stroke-opacity=".045"/></pattern>
+  </defs>
+  <rect width="1200" height="380" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="380" rx="24" fill="url(#grid)"/>
+  <circle cx="990" cy="180" r="270" fill="url(#glow)"/>
+  <rect x="55" y="53" width="5" height="24" rx="2.5" fill="url(#accent)"/>
+  <text x="75" y="71" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="16" letter-spacing="3" fill="#b8a0ff">HELLO, GITHUB</text>
+  <text x="54" y="169" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="70" font-weight="750" letter-spacing="-3" fill="#f5f3ff">warlocckkkk<tspan fill="#67e8d5">.</tspan></text>
+  <text x="58" y="218" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="24" fill="#bcb6cf">Учусь. Создаю. Улучшаю.</text>
+  <path d="M58 260H650" stroke="#b8a0ff" stroke-opacity=".15"/>
+  <text x="58" y="308" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="16" fill="#8f8aab">HTML <tspan fill="#514965">/</tspan> CSS <tspan fill="#514965">/</tspan> JavaScript</text>
+  <g transform="translate(966 190)">
+    <circle r="112" fill="none" stroke="#b8a0ff" stroke-opacity=".15"/>
+    <circle r="81" fill="none" stroke="#b8a0ff" stroke-opacity=".2" stroke-dasharray="3 9"/>
+    <ellipse rx="159" ry="53" transform="rotate(-35)" fill="none" stroke="url(#accent)" stroke-opacity=".55"/>
+    <circle cx="130" cy="-78" r="6" fill="#67e8d5"/>
+    <circle cx="-97" cy="-55" r="4" fill="#b8a0ff"/>
+    <rect x="-59" y="-48" width="118" height="96" rx="23" fill="#1c1830" stroke="#b8a0ff" stroke-opacity=".4"/>
+    <path d="M-23-12L-37 0l14 12M23-12L37 0 23 12M8-22L-8 22" fill="none" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
